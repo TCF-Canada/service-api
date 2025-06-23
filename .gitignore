@@ -1,0 +1,42 @@
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vs/
+
+# Rider IDE files
+.idea/
+
+# Logs
+*.log
+
+# NuGet packages folder
+packages/
+
+# Publish output
+publish/
+
+# ASP.NET temporary files
+appsettings.*.json
+
+# Docker files (si tu ajoutes un Dockerfile et que tu ne veux pas pousser certaines choses)
+# Par exemple si tu as des fichiers secrets liés à Docker
+
+# Secret manager files
+secrets.json
+
+# Entity Framework migration files (tu peux garder ou ignorer, à toi de voir)
+# Migrations/
+
+# JetBrains Rider
+.idea/
+
+# Others
+*.db
